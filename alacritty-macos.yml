@@ -1,0 +1,90 @@
+live_config_reload: true
+
+window:
+  opacity: 1
+  dimensions:
+    columns: 175
+    lines: 50
+  padding:
+    x: 16
+    y: 16
+  startup_mode: Fullscreen
+  dynamic_padding: false
+  decorations: buttonless
+
+font:
+  normal:
+    family: Menlo
+    style: Regular
+  bold:
+    family: Menlo
+    style: Bold
+  italic:
+    family: Menlo
+    style: Italic
+  size: 16.0
+
+schemes:
+  custom-pdz: &custom-pdz
+    # Default colors
+    primary:
+      background: '#000000'
+      foreground: '#E5E6EB'
+
+    cursor:
+      cursor: '#B084EB'
+
+    # Normal colors
+    normal:
+      black:   '#32344a'
+      red:     '#FF2C6D'
+      green:   '#19f9d8'
+      yellow:  '#FFB86C'
+      blue:    '#45A9F9'
+      magenta: '#FF75B5'
+      cyan:    '#B084EB'
+      white:   '#787c99'
+
+    # Bright colors
+    bright:
+      black:   '#444b6a'
+      red:     '#FF4B82'
+      green:   '#6FE7D2'
+      yellow:  '#FFCC95'
+      blue:    '#6FC1FF'
+      magenta: '#FF9AC1'
+      cyan:    '#BCAAFE'
+      white:   '#acb0d0'
+
+  panda: &panda
+    # Default colors
+    primary:
+      background: '#000000'
+      foreground: '#CDCDCD'
+
+    cursor:
+      cursor: '#B084EB'
+
+    # Normal colors
+    normal:
+      black:   '#2a2c2d'
+      red:     '#FF2C6D'
+      green:   '#19f9d8'
+      yellow:  '#FFB86C'
+      blue:    '#45A9F9'
+      magenta: '#FF75B5'
+      cyan:    '#B084EB'
+      white:   '#BBBBBB'
+
+    # Bright colors
+    bright:
+      black:   '#373B41'
+      red:     '#FF4B82'
+      green:   '#6FE7D2'
+      yellow:  '#FFCC95'
+      blue:    '#6FC1FF'
+      magenta: '#FF9AC1'
+      cyan:    '#BCAAFE'
+      white:   '#E6E6E6'
+
+colors: *panda
