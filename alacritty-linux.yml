@@ -1,0 +1,92 @@
+live_config_reload: true
+
+window:
+  opacity: 1
+  dimensions:
+    columns: 120
+    lines: 30
+  padding:
+    x: 16
+    y: 6
+  startup_mode: Windowed
+  title: Alacritty
+  dynamic_title: false
+  dynamic_padding: false
+  decorations: Full
+
+font:
+  normal:
+    family: JetBrains Mono
+    style: Regular
+  bold:
+    family: JetBrains Mono
+    style: Bold
+  italic:
+    family: JetBrains Mono
+    style: Italic
+  size: 11.0
+
+schemes:
+  custom-pdz: &custom-pdz
+    # Default colors
+    primary:
+      background: '#000000'
+      foreground: '#E5E6EB'
+
+    cursor:
+      cursor: '#B084EB'
+
+    # Normal colors
+    normal:
+      black:   '#32344a'
+      red:     '#FF2C6D'
+      green:   '#19f9d8'
+      yellow:  '#FFB86C'
+      blue:    '#45A9F9'
+      magenta: '#FF75B5'
+      cyan:    '#B084EB'
+      white:   '#787c99'
+
+    # Bright colors
+    bright:
+      black:   '#444b6a'
+      red:     '#FF4B82'
+      green:   '#6FE7D2'
+      yellow:  '#FFCC95'
+      blue:    '#6FC1FF'
+      magenta: '#FF9AC1'
+      cyan:    '#BCAAFE'
+      white:   '#acb0d0'
+
+  panda: &panda
+    # Default colors
+    primary:
+      background: '#000000'
+      foreground: '#CDCDCD'
+
+    cursor:
+      cursor: '#B084EB'
+
+    # Normal colors
+    normal:
+      black:   '#2a2c2d'
+      red:     '#FF2C6D'
+      green:   '#19f9d8'
+      yellow:  '#FFB86C'
+      blue:    '#45A9F9'
+      magenta: '#FF75B5'
+      cyan:    '#B084EB'
+      white:   '#BBBBBB'
+
+    # Bright colors
+    bright:
+      black:   '#373B41'
+      red:     '#FF4B82'
+      green:   '#6FE7D2'
+      yellow:  '#FFCC95'
+      blue:    '#6FC1FF'
+      magenta: '#FF9AC1'
+      cyan:    '#BCAAFE'
+      white:   '#E6E6E6'
+
+colors: *panda
